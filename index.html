@@ -33,50 +33,77 @@
     </section>
     <section class="main">
       <div class="hero">
-        <img
-          src="./assets/cheshire-county-hygiene-services-big.svg"
-          alt="cheshire logo"
-        />
-        <h2>Explained propriety of out perpetual to you</h2>
+        <div class="heroWrapper">
+          <img
+            src="./assets/cheshire-county-hygiene-services-big.svg"
+            alt="cheshire logo"
+          />
+          <h2>Explained propriety of out perpetual to you</h2>
 
-        <div class="separator"></div>
-        <p>
-          Insipidity the sufficient discretion imprudence resolution sir him
-          decisively. Proceed how any engaged visitor. Explained propriety of
-          out perpetual his you. Feel sold off felt nay rose met you. We so
-          entreaties cultivated astonished is.
-        </p>
-        <button>Download</button>
+          <div class="separator"></div>
+          <p>
+            Insipidity the sufficient discretion imprudence resolution sir him
+            decisively. Proceed how any engaged visitor. Explained propriety of
+            out perpetual his you. Feel sold off felt nay rose met you. We so
+            entreaties cultivated astonished is.
+          </p>
+          <button>Download</button>
+        </div>
 
-        <div class="form">
-          <h3>Try Your <span>FREE</span> Trial Today</h3>
+        <div class="formBox">
+          <div class="h3">
+            <h3>Try Your <span>FREE</span> Trial Today</h3>
+          </div>
+          <br />
 
-          <h4>Your details</h4>
-          <form id="login" class="input-group-login">
-            <input
-              type="text"
-              class="first-name"
-              placeholder="First name"
-              required
-            />
-            <input
-              type="text"
-              class="last-name"
-              placeholder="Last name"
-              required
-            />
-            <input
-              type="text"
-              class="phone-number"
-              placeholder="Phone number"
-              required
-            />
+          <form id="signUp" class="signUp">
+            <br />
+            <h4>Your details</h4>
+            <div class="input">
+              <input
+                type="text"
+                class="first-name"
+                placeholder="First name"
+                required
+              />
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                class="last-name"
+                placeholder="Last name"
+                required
+              />
+            </div>
+            <div class="input">
+              <input
+                type="number"
+                class="phone-number"
+                placeholder="Phone number"
+                required
+              />
+            </div>
+            <br />
 
             <h4>Type of subscription</h4>
-            <input type="radio" class="radio" /><span>MONTHLY</span>
-            <input type="radio" class="radio" /><span>YEARLY</span>
-            <button type="submit" class="submit-btn" id="submitBtn">
-              GET STARTED
+            <br />
+            <div class="radio-wrapper">
+              <div class="radio">
+                <input type="radio" name="option" id="monthly" />
+                <label for="monthly">MONTHLY</label>
+              </div>
+
+              <div class="radio">
+                <input type="radio" name="option" id="yearly" />
+                <label for="yearly">YEARLY</label>
+              </div>
+            </div>
+
+            <br />
+            <br />
+
+            <button type="submit" class="submitBtn" id="submitBtn">
+              <span>GET STARTED</span>
             </button>
           </form>
         </div>

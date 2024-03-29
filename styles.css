@@ -13,10 +13,10 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
   min-height: 72px;
   background-color: #1c1c1c;
-  position: fixed;
+  position: sticky;
+  top: 0;
 }
 
 nav img {
@@ -59,4 +59,10 @@ nav img {
 
 .nav-links ul li:hover::after {
   width: 100%;
+}
+
+.hero {
+  height: 639px;
+  background: url(./assets/photo-1480714378408-67cf0d13bc1b.png);
+  background-size: cover;
 }

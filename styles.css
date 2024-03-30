@@ -3,12 +3,15 @@
   margin: 0px;
   padding: 0px;
 
-  /*  border: 1px solid black; */
+  /* border: 1px solid black; */
 }
 
 body {
   font-family: "Montserrat";
   font-style: normal;
+}
+
+.main {
 }
 
 nav {
@@ -65,8 +68,9 @@ nav img {
 
 .hero {
   height: 639px;
-  padding: 0px 127px;
-  background: url(./assets/photo-1480714378408-67cf0d13bc1b.png);
+  padding: 0rem 8rem;
+  background: url(./assets/big.png);
+  background-size: cover;
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
@@ -80,10 +84,10 @@ nav img {
 .formBox {
   position: relative;
   background-color: white;
-  height: 424px;
-  margin-left: 120px;
+  height: 407px;
+  margin-left: 90px;
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   border-radius: 10px;
 }
 
@@ -122,7 +126,6 @@ h3 {
   font-size: 18px;
   font-weight: 600;
   height: 57px;
-  padding: 28px;
   border: none;
   cursor: pointer;
   border-bottom-left-radius: 10px;
@@ -149,16 +152,6 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
-
-/* .radio {
-  display: flex;
-  width: 260px;
-} */
-
-/* .radio span {
-  font-size: 9px;
-  font-weight: 700;
-} */
 
 input[type="text"],
 input[type="number"] {
@@ -285,4 +278,33 @@ input[type="radio"] {
   background-color: #e27866;
   border: 3px solid #ffffff;
   font-weight: bold;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  padding: 0rem 9rem;
+}
+
+.icons {
+  color: #e27866;
+  opacity: 65%;
+  height: 30px;
+  width: 50%;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.socialWrap {
+  width: 50%;
+  margin: 10px 0px;
+}
+
+.socialWrap p {
+  font-size: 14px;
+  width: 90%;
+  color: #86878b;
+  padding-top: 5px;
 }

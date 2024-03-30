@@ -22,6 +22,7 @@ nav {
   background-color: #1c1c1c;
   position: sticky;
   padding: 0rem 9rem;
+  z-index: 1;
 }
 
 nav img {
@@ -75,6 +76,16 @@ nav img {
   align-items: center;
   background-repeat: no-repeat;
   background-position-y: -200px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .hero p {
   opacity: 80%;
@@ -144,6 +155,7 @@ h3 {
   color: #ffffff;
   text-align: left;
   margin-left: 25px;
+  z-index: 1;
 }
 
 .signUp {

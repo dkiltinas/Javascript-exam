@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0px;
 
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 body {
@@ -270,7 +270,7 @@ input[type="radio"] {
 
 .hero p {
   width: 651px;
-  opacity: 1;
+  opacity: 0.8;
   color: #ffffff;
   font-size: 16px;
 }
@@ -318,4 +318,58 @@ input[type="radio"] {
   width: 90%;
   color: #86878b;
   padding-top: 5px;
+  opacity: 80%;
+}
+
+.tab-section {
+  display: flex;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.tab.selected {
+  background-color: #f00; /* Example of brighter color for selected tab */
+}
+
+.content {
+  margin-left: 20px;
+  display: flex;
+}
+
+.text {
+  margin-right: 20px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+#image1,
+#image2 {
+  width: 50%; /* Each top image takes 50% width */
+}
+
+#image3 {
+  width: 100%; /* Bottom image takes 100% width */
+}
+
+.images img {
+  /* width: 100px;
+  height: 100px; */
+}
+
+.images img.highlighted {
+  border: 2px solid #f00; /* Example of highlighting the image */
 }

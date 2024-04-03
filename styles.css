@@ -188,7 +188,6 @@ input[type="number"] {
 
 input[type="radio"] {
   display: none;
-  position: absolute;
 }
 
 .radio-wrapper {
@@ -203,8 +202,9 @@ input[type="radio"] {
 
 .radio label {
   font-size: 9px;
-  font-weight: 500;
-  color: #333333;
+  font-weight: bold;
+  color: #000000;
+  opacity: 60%;
 }
 
 .radio input[type="radio"] + label::before {
@@ -212,26 +212,17 @@ input[type="radio"] {
   display: inline-block;
   width: 9px;
   height: 9px;
-  border: 1px solid #41d395;
+  border: 1.5px solid #41d395;
   border-radius: 50%;
   margin-right: 5px;
-}
-
-.radio input[type="radio"]:checked + label::before {
-  content: "";
-  display: inline-block;
-  width: 9px;
-  height: 9px;
-  border: 2px solid #41d395;
-  border-radius: 50%;
-  margin-right: 5px;
+  margin-bottom: -2px;
 }
 
 .radio input[type="radio"]:checked + label::after {
   content: "";
   position: absolute;
-  left: 4.3px;
-  top: 7.5px;
+  left: 5.6%;
+  top: 50%;
   width: 3px;
   height: 3px;
   background-color: #41d395;
@@ -240,6 +231,7 @@ input[type="radio"] {
 }
 .radio input[type="radio"]:checked + label {
   font-weight: bold;
+  opacity: 100%;
   color: black;
 }
 
@@ -800,4 +792,53 @@ h6 {
 .reviews {
   display: flex;
   flex-direction: column;
+}
+
+.contactUs {
+  background-color: #e27866;
+  height: 573px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contactUsTitle h4 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.contactUs .formBox {
+  height: 314px;
+  margin: 0px;
+}
+
+.contactUs button {
+  width: 45%;
+  border-radius: 5px;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.contactUs button span {
+  font-size: 15px;
+}
+
+.contactUs p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.contactUs .formBox {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+}
+
+.contactUs .signUp {
+  margin-bottom: 30px;
 }

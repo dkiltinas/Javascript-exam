@@ -842,3 +842,30 @@ h6 {
 .contactUs .signUp {
   margin-bottom: 30px;
 }
+
+.footer {
+  height: 124px;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 136px;
+}
+.footerIcons {
+  color: #e27866;
+  width: 50%;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.footerIcons i {
+  font-size: 20px;
+}
+
+.copyright {
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 50%;
+}

@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0px;
 
-  /* border: 1px solid black; */
+  /*  border: 1px solid black; */
 }
 
 body {
@@ -566,9 +566,6 @@ h6 {
   margin-bottom: 25px;
 }
 
-.processTextContainer p {
-}
-
 .processesContainer {
   display: flex;
   justify-content: space-around;
@@ -604,4 +601,118 @@ h6 {
 
 .fa-solid.fa-award {
   padding: 10px 13px;
+}
+
+.pricing {
+  height: 883px;
+  padding: 0px 145px;
+  background-color: #6696e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 20px;
+}
+
+.card {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 343px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.card h1 {
+  color: #ffffff;
+  font-size: 94px;
+  font-weight: 400;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.card span {
+  font-size: 34px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 50%;
+}
+
+.greenSeparator {
+  background-color: #41d395;
+  height: 6px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+
+#proSeparator {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#proCard {
+  margin-bottom: 35px;
+}
+
+.cardWrapper ul {
+  background-color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cardWrapper li {
+  color: #86878b;
+  font-size: 14px;
+  text-align: center;
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+.pricingTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.pricingTextContainer h4 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.pricingTextContainer p {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 25px 0px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pricingSeparator {
+  background-color: #41d395;
+  width: 6%;
+  height: 2px;
+  margin-bottom: 5px;
 }

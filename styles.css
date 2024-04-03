@@ -536,3 +536,72 @@ h6 {
   margin: 20px 0px;
   height: 20px;
 }
+
+.ourProcess {
+  padding: 0px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 592px;
+}
+
+.processTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.processSeparator {
+  width: 6%;
+  background-color: #e27866;
+  border: #e27866;
+  height: 2px;
+}
+
+.processTextContainer h4 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #212121;
+  margin-bottom: 25px;
+}
+
+.processTextContainer p {
+}
+
+.processesContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.process {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 29%;
+}
+
+.process h4 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 450;
+  margin-top: 35px;
+}
+
+.ourProcess p {
+  font-size: 14px;
+  color: #86878b;
+  margin-top: 27px;
+}
+
+.processIconWrapper i {
+  font-size: 18px;
+  color: #e27866;
+  border: 1px solid #e27866;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa-solid.fa-award {
+  padding: 10px 13px;
+}

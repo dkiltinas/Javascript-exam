@@ -716,3 +716,87 @@ h6 {
   height: 2px;
   margin-bottom: 5px;
 }
+
+.testimonial {
+  padding: 0px 171px;
+  height: 591px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.testimonialTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.testimonialTitle {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+
+.blueSeparator {
+  background-color: #6696e2;
+  width: 6%;
+  height: 2px;
+}
+
+.reviewsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.reviewText {
+  position: relative;
+  background-color: #6696e2;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 273px;
+}
+
+#smallReviewText {
+  max-height: 125px;
+  margin-top: 20px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  background-color: #6696e2;
+  position: absolute;
+  bottom: -5px;
+  right: 230px;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.profile-details .name {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.profile-details .job {
+  color: #86878b;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+}

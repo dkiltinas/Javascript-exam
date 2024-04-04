@@ -31,7 +31,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 105vh;
   width: 250px;
   z-index: 4;
   background-color: rgba(247, 126, 40, 0.5);
@@ -927,6 +927,7 @@ h6 {
 @media (max-width: 450px) {
   body {
     margin: 0px;
+    padding: 0px;
   }
   .main {
     display: flex;
@@ -943,6 +944,7 @@ h6 {
   nav {
     width: 450px;
     padding: 0px;
+    position: fixed;
   }
 
   .hamburger {
@@ -957,7 +959,7 @@ h6 {
     background-size: cover;
     padding: 0px;
     width: 450px;
-    height: auto;
+    height: 580px;
   }
 
   .hero h2 {
@@ -986,6 +988,8 @@ h6 {
 
   .downloadBtn {
     width: 100%;
+    margin-top: 50px;
+    height: 50px;
   }
 
   .hero p {
@@ -1014,7 +1018,7 @@ h6 {
     background-size: cover;
     background-position: left;
     max-width: 475px;
-    height: auto;
+    height: 500px;
     display: flex;
     flex-direction: column;
   }
@@ -1023,15 +1027,12 @@ h6 {
     width: 100%;
     font-size: 20px;
   }
-
-  .images {
-    display: flex;
-    margin-top: 50px;
+  .text p {
+    font-size: 12px;
   }
 
-  #image3 {
-    width: 100%;
-    margin-top: 40px;
+  .images {
+    display: none;
   }
 
   .tabs {
@@ -1039,6 +1040,119 @@ h6 {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 60px;
+  }
+
+  .features {
+    padding: 0px;
+    width: 450px;
+    height: 550px;
+  }
+
+  .featuresTextWrap {
+    width: 440px;
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+
+  .features h4 {
+    font-size: 25px;
+  }
+
+  .featuresTextWrap p {
+    font-size: 12px;
+  }
+
+  #firstP {
+    width: 400px;
+  }
+
+  .logoContainer {
+    display: none;
+  }
+
+  .ourProcess {
+    padding: 0px 20px;
+    height: 500px;
+  }
+
+  .processTextContainer h4 {
+    font-size: 30px;
+  }
+
+  .processesContainer p {
+    display: none;
+  }
+
+  .pricing {
+    width: 450px;
+    height: 700px;
+    padding: 0px;
+  }
+  .pricingTextContainer {
+    margin-top: 100px;
+  }
+
+  .pricing h4 {
+    font-size: 30px;
+  }
+
+  .cardContainer {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+
+  .cardWrapper h1 {
+    font-size: 60px;
+  }
+
+  .cardWrapper li {
+    padding: 7px;
+  }
+
+  .card {
+    width: 250px;
+  }
+
+  #proCard {
+    margin-bottom: 20px;
+  }
+
+  .testimonial {
+    padding: 0px 20px;
+    width: 450px;
+  }
+
+  .testimonialTextContainer h4 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .reviewsContainer {
+    gap: 3rem;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    overflow-x: scroll;
+  }
+  .reviewText {
+    width: 300px;
+  }
+
+  .contactUs {
+    width: 450px;
+  }
+
+  .footer {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 450px;
+    height: 100px;
+  }
+  .footerIcons {
+    display: none;
   }
 }

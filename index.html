@@ -18,12 +18,24 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
     <title>Cheshire County</title>
   </head>
   <body>
     <!--------------------------------------- Header --------------------------------------->
     <section class="header">
       <nav>
+        <div class="hamburger">
+          <li onclick="showSidebar()">
+            <a href="#"
+              ><span class="material-symbols-outlined"> menu </span></a
+            >
+          </li>
+        </div>
         <a href="index.html"
           ><img
             src="./assets/cheshire-county-hygiene-services.svg"
@@ -31,11 +43,25 @@
         /></a>
         <div class="nav-links">
           <ul>
-            <li><a href="">Features</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Reviews</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"
+              ><span class="material-symbols-outlined"> close </span></a
+            >
+          </li>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -475,5 +501,6 @@
       </div>
       <div class="copyright">© 2019 Cheshire County</div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

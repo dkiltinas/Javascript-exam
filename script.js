@@ -94,3 +94,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+//==========================Form validation==========================//
+
+document.getElementById("signUp1").addEventListener("submit", function (event) {
+  const form = document.getElementById("signUp1");
+  const firstName = document.querySelector(".first-name").value.trim();
+  const lastName = document.querySelector(".last-name").value.trim();
+  const phoneNumber = document.querySelector(".phone-number").value.trim();
+  const optionMonthly = document.getElementById("monthly").checked;
+  const optionYearly = document.getElementById("yearly").checked;
+
+  if (!firstName || !lastName || !phoneNumber) {
+    alert("Please fill out all fields");
+    event.preventDefault();
+  } else if (!optionMonthly && !optionYearly) {
+    alert("Please choose a subscription option");
+    event.preventDefault();
+  } else {
+    alert("Thank you! Your submission has been sent.");
+    form.reset();
+  }
+});

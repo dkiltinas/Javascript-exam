@@ -956,6 +956,7 @@ h6 {
     justify-content: center;
     align-items: center;
     width: 450px;
+    overflow-x: hidden;
   }
 
   .nav-links {
